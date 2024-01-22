@@ -173,6 +173,21 @@ export {
 } from './typeahead/typeahead.module';
 export { Placement } from './util/positioning';
 
+export { PopupService } from './util/popup';
+export { listenToTriggers } from './util/triggers';
+export { ngbAutoClose } from './util/autoclose';
+export { ngbPositioning } from './util/positioning';
+export { addPopperOffset } from './util/positioning-util';
+export { ngbFocusTrap } from './util/focus-trap';
+
+export { isString } from './util/util';
+export { isInteger } from './util/util';
+export { isNumber } from './util/util';
+export { isDefined } from './util/util';
+export { isPromise } from './util/util';
+export { toString } from './util/util';
+export { toInteger } from './util/util';
+
 export { NgbConfig } from './ngb-config';
 
 const NGB_MODULES = [
