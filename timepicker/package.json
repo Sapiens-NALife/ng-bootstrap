@@ -1,0 +1,4 @@
+{
+  "module": "../fesm2022/ng-bootstrap-ng-bootstrap-timepicker.mjs",
+  "typings": "../types/ng-bootstrap-ng-bootstrap-timepicker.d.ts"
+}

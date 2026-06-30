@@ -1,0 +1,4 @@
+{
+  "module": "../fesm2022/ng-bootstrap-ng-bootstrap-typeahead.mjs",
+  "typings": "../types/ng-bootstrap-ng-bootstrap-typeahead.d.ts"
+}
