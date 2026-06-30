@@ -39,6 +39,24 @@ export * from '@ng-bootstrap/ng-bootstrap/tooltip';
 export * from '@ng-bootstrap/ng-bootstrap/typeahead';
 export type { Placement, PlacementArray } from '@ng-bootstrap/ng-bootstrap/utils';
 
+// Custom Change - add additional exports
+export { PopupService } from './utils/popup';
+export { listenToTriggers } from './utils/triggers';
+export { ngbAutoClose } from './utils/autoclose';
+export { ngbPositioning } from './utils/positioning';
+export { addPopperOffset } from './utils/positioning-util';
+export { ngbFocusTrap } from './utils/focus-trap';
+export { ngbCompleteTransition } from './utils/transition/ngbTransition';
+
+export { isString } from './utils/util';
+export { isInteger } from './utils/util';
+export { isNumber } from './utils/util';
+export { isDefined } from './utils/util';
+export { isPromise } from './utils/util';
+export { toString } from './utils/util';
+export { toInteger } from './utils/util';
+// End of Custom Change
+
 export { NgbConfig } from '@ng-bootstrap/ng-bootstrap/config';
 
 const NGB_MODULES = [
@@ -59,7 +77,7 @@ const NGB_MODULES = [
 	NgbTimepickerModule,
 	NgbToastModule,
 	NgbTooltipModule,
-	NgbTypeaheadModule,
+	NgbTypeaheadModule
 ];
 
 @NgModule({ imports: NGB_MODULES, exports: NGB_MODULES })
